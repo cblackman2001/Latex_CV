@@ -1,0 +1,187 @@
+
+
+
+\documentclass[11pt, a4paper]{article} 
+
+\usepackage[T1]{fontenc}     
+\usepackage[utf8]{inputenc}  
+\usepackage[british]{babel}  
+\usepackage[left = 0mm, right = 0mm, top = 0mm, bottom = 0mm]{geometry}
+\usepackage[stretch = 25, shrink = 25, tracking=true, letterspace=30]{microtype}  
+\usepackage{graphicx}        
+\usepackage{xcolor}          
+\usepackage{marvosym}        
+
+\usepackage{enumitem}        
+\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
+
+\usepackage{FiraSans}        
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{cvblue}{HTML}{304263}
+
+\newcommand{\dates}[1]{\hfill\mbox{\textbf{#1}}}
+\newcommand{\is}{\par\vskip.5ex plus .4ex}
+\newcommand{\smaller}[1]{{\small$\diamond$\ #1}}
+\newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par%
+    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
+\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
+     \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
+
+\usepackage[colorlinks = true, urlcolor = white, linkcolor = white]{hyperref}
+
+\begin{document}
+
+\setlength{\topskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\pagestyle{empty}
+\raggedbottom
+
+
+\begin{minipage}[t]{0.33\textwidth}
+\colorbox{cvblue}{\begin{minipage}[t][5mm][t]{\textwidth}\null\hfill\null\end{minipage}}
+
+\vspace{-.2ex}
+\colorbox{cvblue!90}{\color{white}
+\kern0.09\textwidth\relax
+\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{2.5ex}
+
+\Large Callum Blackman \normalsize 
+
+\vspace*{1ex}
+
+
+\href{https://github.com/cblackman2001}{GitHub: cblackman2001} \\
+\href{mailto:#######}{#####} \\
+Kingston \\
+
+\vspace*{1.5ex}
+
+\headleft{Skills}
+\begin{itemize}
+\item \underline{DevOps Practices:} CI/CD. Such as - Maintaining multiple projects Jenkins environments, Migrating and rebuilding pipelines for github actions.
+\item \underline{Scripting and programming:} Bash, Powershell, Python, Groovy. Creating automated bash scripts for repeatable tasks such as creating, signing export certifactes. Auto monitoring and refreshing PAT's with minimal input. Python monitoring bot.
+\item \underline{Linux And Windows OS:} Using Linux and Windows Based Servers and environments for development and deploying infrastructure.
+\item \underline{Containerization:} Docker, Kubernetes. Deploying Docker containers on servers or Kubernetes pods for services such as
+Fortify, Jenkins. Dockerising large applications into compose files so they are easier to deploy to customers. Managing
+a Kubernetes cluster which contained the environments for a wider set of projects which we support and needed to
+assist and monitor daily
+\item \underline{IaC:} Terraform, Ansible. Terraform being used to automate the deployment of Kubernetes clusters and all the images
+attached to it. Managed Ansible playbooks which are built for automated deployments of VMs
+\item \underline{Collaboration:} Team and cross team communication, Agile Methodologies (Kanban, Scrum) Working on kanban boards
+within various teams to prioritize work and ensure we can assist each other with various blockers
+\end{itemize} 
+
+\end{minipage}%
+\kern0.09\textwidth\relax
+}
+\end{minipage}
+\hskip2.5em
+\begin{minipage}[t]{0.56\textwidth}
+\setlength{\parskip}{0.8ex}
+
+\headright{Summary}
+
+\smaller{Sole DevOps Engineer for a large project, supporting their pipelines and maintaining and optimizing their environments. Started by completing a level 4 DevOps Apprenticeship and continued employment as a junior DevOps Engineer, working within a
+team tackling tasks related to supporting and maintaining Kubernetes environments hosted on azure and developing
+pipelines for developed apps for multiple teams. Adapting to various problems which occurred within the team. I was
+involved in an early career council to host events and socials in order to develop professionally and technically for self
+and peers. I have an interest in technology and learning new tools as well as computer related hardware.}
+
+\headright{Career Highlights}
+
+\smaller{Passing Prestigious low pass rate apprenticeship at BAE Systems as DevOp Engineer.}
+
+\is
+\smaller{Leading work at presenting CIS Benchmarks for new developer laptops and locking down the devices, Then automating the deploying the devices to be distributed to the large wider team.}
+
+\is
+\smaller{Maintaining multiple teams developmental environments and pipelines at once within kubernetes clusters.}
+
+\is
+\smaller{Updating and Optimizing the pipelines for automated Kubernetes cluster deployments.}
+
+\is
+\smaller{Debugging ManageEngine MDM instance and working alongside support to repair the server and using it actively for devices.}
+
+\vspace{2ex}
+
+\headright{Experience}
+
+\textsc{DevOps Engineer} at \textit{BAE}  \dates{June 2024 - Present} \\
+\smaller{Joined as the Sole DevOps Engineer as part of a DevSecOps team, With the responsibility of owning their Pipelines, Azure and, actively supporting the entire team and all their repository's and workflows to ensure they run optimally. Maintaining Azure and deploying new VM's as required, designing and deploying credential solution for the team. Laptop Security proof of concepts and build automation.  Debugging sonarqube instances and configurations they use to ensure clean code is followed.}
+
+\textsc{Junior DevOps Engineer} at \textit{BAE}  \dates{June 2023 - May 2024} \\
+\smaller{DevOps Engineer in a team of DevOps training and mentoring newer members, taking on large scale tickets to improve deployments and processes aswell as automating time consuming tasks such as Monitoring, auto-building infrastructure and certificates, Taking on new roles within the company such as part of a early careers council to assist with furthering own knowledge and mentoring early career engineers.}
+
+\textsc{Apprentice DevOps Engineer} at \textit{BAE}  \dates{November 2021 - June 2023} \\
+\smaller{Started as Apprentice and underwent a intensive boot camp to learn the skills required
+and then joined a team of engineers, completed an apprenticeship After a year and a half and continued employment with a team of DevOps Engineers supporting and maintaining Software Engineer working environments.}
+
+\textsc{Bar Manager} at \textit{WhitBread}  \dates{July 2019 - October 2021} \\
+\smaller{Maintaining the Bar and its staff ensuring everyone was working well together by people managing, Accounting for different stock and the bar as a whole.}
+
+
+\end{minipage}
+
+\newpage
+
+
+\begin{minipage}[t]{0.33\textwidth}
+\colorbox{cvblue}{\begin{minipage}[t][5mm][t]{\textwidth}\null\hfill\null\end{minipage}}
+
+\vspace{-.2ex}
+\colorbox{cvblue!90}{\color{white}
+\kern0.09\textwidth\relax
+\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{2.5ex}
+
+\begin{itemize}
+\item \underline{Version Control:} Using Git, including branching, merging, and resolving conflicts and assisting the team with theirs.
+Experience in repository hosting services, pull request workflows, and CI/CD integrations such as GitHub and Bit Bucket.
+\item \underline{Server Administration:} Using tools such as DC (Domain Controllers), VMware , Snapshots and Backups in order to assist with server admin tasks and maintenance.
+\end{itemize} 
+
+\headleft{Career Skills}
+\begin{itemize}
+\item \underline{Communication:} Communicating between various members of the teams or different projects to retrieve requirements or break down issues. With Colleagues having different levels of expertise.
+\item \underline{StakeHolder Management:} Sharing important information with different stakeholders of projects in order to ensure we are meeting requirements and explaining to match their priority's and level of technical knowledge.
+\item \underline{Adaptability:} Adapting to constant changes in priority within the team, such as P1 bugs appearing or important tasking needing attention.
+\item \underline{Training and Mentorship:} Training new junior members to use various systems and infrastructure set ups, aswell as actively mentoring them during tickets.
+\item \underline{Active Support:} Providing active support to different teams for maintaining and updating infrastructure to assisting with issues relating to DevOps practices like pipelines.
+\end{itemize} 
+
+\end{minipage}%
+\kern0.09\textwidth\relax
+}
+\end{minipage}
+\hskip2.5em
+\begin{minipage}[t]{0.56\textwidth}
+\setlength{\parskip}{0.8ex}
+
+\headright{Role Descriptions}
+
+\smaller{As the Sole DevOps Engineer, it was my responsibility to maintain the Azure environment from Kubernetes clusters, to migration off the cluster and various VM's we use. Then Migrating from a Jenkins instance and jenkinsfiles over to Github and Actions. This required alot of rebuilding for automation scripts for the new setup. Then maintaining applications being hosted on our on-premise servers including MDM servers needing debugging and openssl machines for certificates. }
+
+\is
+\smaller{During my time as a DevOps Engineer to begin with I was a part of a DevOps team with the responsibility of maintaining multiple teams environments at once by updating them and deploying through terraform automation pipelines. Streamlining and optimizing the pipeline to increase success rate and reduce build time. Actively supporting the teams when they run into errors.}
+
+\is
+\smaller{As a Apprentice DevOps Engineer I was put through a bootcamp to learn the fundamentals of DevOps and then assigned a team to further knowledge, My responsibilities includes periodic activities such as updating docker images and plugins throughout environments and ensuring they don't cause breaking changes by testing and then deploying these to the production cluster. Taking on a wide range of different tickets such as Linux on premise servers updating and setup for hosting Jenkins on.}
+
+\vspace{2ex}
+
+\headright{Education}
+
+\textsc{Lvl 4 DevOps Engineer Apprenticeship.} \textit{BAE AI}.  \\
+
+\is
+\textsc{HNC Computing.} \textit{Kingston College}. \\
+
+\end{minipage}
+\end{document}
