@@ -1,0 +1,161 @@
+
+
+
+\documentclass[11pt, a4paper]{article} 
+
+\usepackage[T1]{fontenc}     
+\usepackage[utf8]{inputenc}  
+\usepackage[british]{babel}  
+\usepackage[left = 0mm, right = 0mm, top = 0mm, bottom = 0mm]{geometry}
+\usepackage[stretch = 25, shrink = 25, tracking=true, letterspace=30]{microtype}  
+\usepackage{graphicx}        
+\usepackage{xcolor}          
+\usepackage{marvosym}  
+\usepackage[normalem]{ulem} % put in preamble
+
+\usepackage{enumitem}        
+\setlist{parsep = 0pt, topsep = 0pt, partopsep = 1pt, itemsep = 1pt, leftmargin = 6mm}
+
+\usepackage{FiraSans}        
+\renewcommand{\familydefault}{\sfdefault}
+
+\definecolor{cvblue}{HTML}{304263}
+
+\newcommand{\dates}[1]{\hfill\mbox{\textbf{#1}}}
+\newcommand{\is}{\par\vskip.5ex plus .4ex}
+\newcommand{\smaller}[1]{{\small$\diamond$\ #1}}
+\newcommand{\headleft}[1]{\vspace*{3ex}\textsc{\textbf{#1}}\par%
+    \vspace*{-1.5ex}\hrulefill\par\vspace*{0.7ex}}
+\newcommand{\headright}[1]{\vspace*{2.5ex}\textsc{\Large\color{cvblue}#1}\par%
+     \vspace*{-2ex}{\color{cvblue}\hrulefill}\par}
+
+\usepackage[colorlinks = true, urlcolor = white, linkcolor = white]{hyperref}
+
+\begin{document}
+
+\setlength{\topskip}{0pt}
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0pt}
+\setlength{\fboxsep}{0pt}
+\pagestyle{empty}
+\raggedbottom
+
+
+\begin{minipage}[t]{0.33\textwidth}
+\colorbox{cvblue}{\begin{minipage}[t][5mm][t]{\textwidth}\null\hfill\null\end{minipage}}
+
+\vspace{-.2ex}
+\colorbox{cvblue!90}{\color{white}
+\kern0.09\textwidth\relax
+\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{2.5ex}
+
+\Large Emily Attewell \normalsize 
+
+\vspace*{1ex}
+
+
+\href{mailto:emilyattewell@gmail.com}{emilyattewell@gmail.com} \\
+Epsom \\
+
+\headleft{Skills}
+\begin{itemize}
+\item \underline{Patient Assessment:} Vital signs, A-E assessment, neurological observations including PEARL, chest auscultation, pain assessments, neuromuscular observations and risk assessments.
+\item \underline{Medicine Management:} Preparation and administration of medication through a variety of routes such as oral, subcutaneously, rectal and enteral tubes. Knowledge on different medications, their use and side effects.
+\item \uline{Child \& Family Centered \\ Care:} Working co-operatively with patient and family to negotiate a care plan for treatment. Can build strong rapport with them to provide a stronger quality of care experience.
+\item \underline{Communication:} Strong and empathetic communication skills with children of all ages and adults. Can communicate clearly and effectively with members of the multi-disciplinary team. Clear and structured written communication in nursing documentation.
+\item \underline{Leadership:} Aware of my own and others capability to delegate tasks accordingly when necessary. Strong emotional intelligence which is used to support the team environment. Providing and receiving feedback from professionals and patients.
+\end{itemize} 
+
+\end{minipage}%
+\kern0.09\textwidth\relax
+}
+\end{minipage}
+\hskip2.5em
+\begin{minipage}[t]{0.56\textwidth}
+\setlength{\parskip}{0.8ex}
+
+\headright{Summary}
+\smaller{Dedicated and compassionate newly qualified Children’s Nurse awarded a First Class Honours. Experienced across diverse placements including general paediatric wards, surgical wards and community nursing with proven skills in patient assessment, medicine management, and child and family-centered care. My strengths include supporting mental health patients and implementing strong therapeutic relationships with patients and their families. I am passionate about delivering empathetic, evidence-based care and working collaboratively within multidisciplinary teams to support children and their families. I am also committed to continuous learning and furthering my skills.}
+
+\vspace{1ex}
+
+\headright{Placement Experience}
+
+\textbf{Children's Ward at} \textbf{\textit{St Helier Hospital}}  \\
+\dates{May - July 2025} \\
+\smaller{For my management placement on a general paediatric ward I demonstrated the skills to provide nursing care to a range of my own caseloads of patients under nurse supervision. I implemented leadership skills into my practice by leading and partaking in staff handovers and discussions within the multi-disciplinary team (MDT) using clear communication. From this I recognised the importance of teamwork and co-operative care planning with the MDT and patients. I received positive feedback on my work with mental health patients from the Mental Health CNS.}
+
+\textbf{Children's Day Surgery Unit at}  \textbf{\textit{St Helier Hospital}} \\
+\dates{September – November 2024} \\
+\smaller{On the surgical unit I was responsible for preparing patients for theatre and caring for them afterwards. I practiced pre and post-operative care including admission, receiving patients in recovery and monitoring vital signs and pain on return to the ward. I engaged in difficult conversations with families and managed a number of patients independently under nurse supervision.}
+
+\textbf{Accident \& Emergency (A\&E) at} \textbf{\textit{St Helier Hospital}}  \\
+\dates{July – August 2024} \\
+\smaller{I was able to gain adult nursing experience where I learnt how to manage busier environments and large caseloads of patients. I advocated for patients who were unable to for themselves and negotiated care with them and members of the multi-disciplinary team.}
+
+\textbf{Children's Outpatients Department at} \textbf{\textit{Kingston Hospital}}  \\
+\dates{May – June 2024} \\
+\smaller{In this department I strengthened communication skills by gaining responsibility of multiple clinics within the unit. I chaperoned clinics and gained a further understanding of nursing roles and responsibilities by observing nurse led clinics.}
+
+\textbf{Casey Ward at} \textbf{\textit{Epsom Hospital}}  \\
+\dates{February – April 2024} \\
+\smaller{On this general paediatric ward, I provided nursing care to a range of patients. I continued building knowledge on common paediatric conditions, primarily mental health admissions. I cared for and worked with complex care patients with brain injuries, assisting in moving and handling, and personal care - ensuring to maintain dignity. I further practiced medicine management skills and completed nursing documentation.}
+
+\end{minipage}
+
+\newpage
+
+
+\begin{minipage}[t]{0.33\textwidth}
+\colorbox{cvblue}{\begin{minipage}[t][5mm][t]{\textwidth}\null\hfill\null\end{minipage}}
+
+\vspace{-.2ex}
+\colorbox{cvblue!90}{\color{white}
+\kern0.09\textwidth\relax
+\begin{minipage}[t][293mm][t]{0.82\textwidth}
+\raggedright
+\vspace*{6ex}
+
+\begin{itemize}
+\item \underline{Critical Thinking:} Analyse and evaluate patient information to follow evidence-based decisions. Able to process and adapt care plans effectively to provide quality patient care.
+\item \underline{Conflict Management:} Can address and respond to conflict that arises between professionals or from patients. Can adapt communication skills and de-esculate situations.
+\item \underline{Time Management:} Can manage the caseload I have throughout a shift identifying the tasks of different priorities and organising my schedule for the shift.
+\end{itemize}  
+
+\end{minipage}%
+\kern0.09\textwidth\relax
+}
+\end{minipage}
+\hskip2.5em
+\begin{minipage}[t]{0.56\textwidth}
+\setlength{\parskip}{0.8ex}
+
+\vspace{8ex}
+\textbf{Children's Community Nursing at} \textbf{\textit{St Helier Hospital}}  \\
+\dates{November – December 2023} \\
+\smaller{Here I visited patient homes and schools within the community nursing team to provide nursing care. I learnt the role of supporting patients and families and how I as the nurse can advise families to manage their own care to avoid hospital admissions. I observed and assisted teaching for urinary catheter care and nasogastric (NG) tube care. I practiced passing and removing a NG tube and dressing changes.}
+
+\textbf{Teenage Cancer Unit at} \textbf{\textit{The Royal Marsden}}  \\
+\dates{June - August 2023} \\
+\smaller{During my experience on this ward I learnt how to take patient assessments including vital signs and neurological observations. I identified deterioration in patients and responded to emergency situations. I began practicing medicine management skills by preparing and administering medication. I gained experience with long-term, palliative and end of life care. I established a strong rapport with patients and families.}
+
+\textbf{Children's Outpatients Department at} \textbf{\textit{St Helier Hospital}}  \\
+\dates{January – March 2023} \\
+\smaller{Worked within this unit where I prepared children for their outpatients appointment. Here I was given responsibility of my own clinics which allowed me to learn communication skills with patients of various ages and families. I took initiative in managing problems that occurred with concerns from parents and altered my communication for these tense situations. I also took the opportunity to gain knowledge on common paediatric conditions that patients were arriving to the unit with.}
+
+\headright{Education}
+
+\textsc{Children's Nursing BSc(Hons): First class.}  \\
+\textit{Kingston University}. \\
+
+
+\is
+\textsc{A Levels: Psychology (A) - Philosophy \& Ethics (A) - History (A)} \textit{Blenheim High School}. \\
+
+\textsc{GCSE: English (6) - Maths (5) - Triple Sciences (5-5-6)} \\
+\textit{Blenheim High School}. \\
+
+\end{minipage}
+\end{document}
